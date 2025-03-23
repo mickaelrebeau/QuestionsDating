@@ -16,7 +16,7 @@ export default function SeedPage() {
     setResult(null)
 
     try {
-      const response = await fetch("/seed", {
+      const response = await fetch("/api/seed", {
         method: "GET",
       })
 
